@@ -3,6 +3,8 @@
 # Project Name:Airline Reservation System
 # Description
  This system focus on booking tickets of valid users whose credentials gets accepted.
+ User can login to system to check the booked tickets.
+ User can also verify that his/her ticket is booked or not.
 
 
 
