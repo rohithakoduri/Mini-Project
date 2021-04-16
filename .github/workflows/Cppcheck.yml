@@ -1,0 +1,19 @@
+name: Cppcheck-action
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Cppcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        
+      - name: Install Cppcheck
+        run: sudo apt-get -y install Cppcheck
+      - name: Cppcheck code
+        run: Cppcheck implementation
